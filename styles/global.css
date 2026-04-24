@@ -88,7 +88,11 @@ ul[role="list"] {
     list-style: none;
 }
 
-@media (width >=80em) {
+img {
+    display: block;
+}
+
+@media (width >=768px) {
     :root {
         --fs-lg: 2rem;
         --fs-xl: 3rem;

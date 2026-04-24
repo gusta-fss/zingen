@@ -20,6 +20,9 @@
     &:hover {
         --btn-bg-color: var(--brand-gradient);
         --btn-color: var(--surface-color);
+        color: var(--btn-color);
+        -webkit-backgroung-clip: initial;
+        background-clip: initial;
     }
 }
 
@@ -52,5 +55,12 @@
         -webkit-backgroung-clip: text;
         background-clip: text;
         color: transparent;
+    }
+}
+
+@media (width >=768px) {
+    .btn-sm {
+        padding: .75rem 1.5rem;
+        font-size: var(--fs-base);
     }
 }
