@@ -89,6 +89,8 @@
 @media (width >=80em) {
     #pricing {
         --fs-price: 2.5rem;
+        max-width: 76rem;
+        margin-inline: auto;
 
         & header {
             max-width: 50rem;

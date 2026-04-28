@@ -20,6 +20,8 @@
 @media (width >=80em) {
     #download {
         & .card {
+            max-width: 76rem;
+            margin-inline: auto;
             padding: 8.75rem 5rem;
 
             & > div:nth-child(1) {

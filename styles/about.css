@@ -2,6 +2,7 @@
     background-color: var(--surface-color);
 
     & .even-columns {
+        max-width: 76rem;
         gap: 2rem;
     }
 }
