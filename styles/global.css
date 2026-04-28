@@ -93,7 +93,7 @@ img {
     display: block;
 }
 
-@media (width >=768px) {
+@media (width >=80em) {
     :root {
         --fs-lg: 2rem;
         --fs-xl: 3rem;
